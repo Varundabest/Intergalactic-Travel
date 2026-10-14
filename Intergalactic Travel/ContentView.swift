@@ -28,7 +28,7 @@ struct ContentView: View {
 struct StarLink: View {
     let name : String
     var body: some View {
-        NavigationLink("Travel to \(name)") {
+        NavigationLink("Travels to \(name)") {
             Image(name)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
